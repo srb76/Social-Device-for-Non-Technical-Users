@@ -1,0 +1,61 @@
+Austin, Samuel, Haolin, and sponsor Arian Kulp met in person at Coffee Culture.
+
+Device Info:
+
+A touchscreen only device, intended for use by a non-technical elderly audience, such as those in care centers.
+The device is intended to only run one application, and access to all system functions and notifications is disabled.
+Device must still automatically receive Android OS updates and device app updates in the background (invisible to user), and these may be scheduled to be performed at a specific time (nightly).
+The device application will be single purpose and be largely controlled by a family administrator account (via web or mobile app). The user will not be the one scrolling through apps, setting up notifications, video-calling, etc. Many functions are receive-only except for sending voice messages.
+The device should only allow contact with a closed social circle of family members.
+The device app will have no virtual keyboard, but will have a software Back button.
+Zooming is not an intended feature as of now.
+The screen on the device is 1280 * 720p.
+Storage on the device is between 16 and 32 GB. Known files to be stored include music files and resized images. Video and audio files will not be stored on device.
+
+Device App Functions:
+
+A photo gallery the user can scroll through (client mentioned "half-items" on each edge of the screen). The family administrator should be able to manage this by choosing to add/delete photos. The device itself will not be to take photos, but can receive them from the family administrator. Photos should be tagged according to who sent them ("Tom - your son").
+Music playing, the family admin will also manage buying / sending music files.
+Voice recording, the user may record a voice message and send it for the family app to see.
+Receive messages in a text format.
+Two-way video calling between user and family.
+Show local weather, currently info is obtained from weather.gov and uses their icon set.
+A reminder feature controlled by family admin.
+All device app usage should be recorded, so that the family admin can see how much time user spent with specific device functions.
+On login, send device usage info and remaining storage space.
+The device should run a single app at a time (context), ie no music playing in the background confusing user.
+
+Software info:
+
+Cordova with Angular + Ionic. Plugins have been used to disable system functions. Client apps must be developed in this for cross-platform.
+ASP.net (for video-conferencing / two way video) + SignalR library
+Embedded Chrome.
+WebRTC.
+SQL server back-end.
+Image resizer.
+Bootstrap toolkit.
+
+Goals for team:
+
+Optimize performance speed of existing device application, sponsor reported slow visual performance. (Sponsor mentioned the use of a debug build in relation to this)
+Ensure device is detached from base Android device notifications and functions.
+Improvements to and the completion of existing app functions (may need to clarify specifics with sponsor). This includes ensuring device app meets the needs of its target audience, as intuitive and easy to use as possible.
+
+Undetermined goals to decide with sponsor:
+
+Development of family web and mobile app.
+Wireframes of family web / mobile app if development is not performed by team.
+Design way to present information on main menu of device app, ensuring this meets the needs of the target audience.
+Replace weather.gov icon set.
+Possibly have care facility as a separate contact on device app.
+Serverside management of photo ordering.
+
+Misc Services:
+
+COSU management layer.
+Azure.
+
+Documents for team from sponsor:
+
+Design guide.
+Screenshots of device (sponsor may choose to screenshare instead).

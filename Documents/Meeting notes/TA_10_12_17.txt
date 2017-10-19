@@ -1,0 +1,29 @@
+Here are the notes for the 10/12 meeting with the TA ("Ben" or Behnam Saeedi):
+Samuel, Austin, and Ben met in person.
+
+TA meeting information:
+
+Future TA meetings will be in room 2098 of the KEC building.
+All group members must attend every TA meeting session.
+Friday's at 3:00PM are our weekly TA meeting times, this can be changed if we contact the TA, and this time is specific to Fall term.
+TA meetings will typically last about 20 minutes.
+TA's are an intermediary between us and the instructor, they are also like our project managers.
+
+Class info:
+
+Do not miss submitting assignments, at least turn something in. Assignments turned in late receive a 5% grade reduction per day. All documents must be turned in to pass the course.
+
+Project / Sponsor meeting info:
+
+Ask for details and expectations regarding the repository we will be given access to.
+Ask what hardware and software we will be working with.
+Ask for documentation about the project device / application.
+Ask what features the client wants us to add or optimize.
+We need to make sure we have a good relationship and communication with our client.
+
+Other info:
+
+Whatever repository we use (client's or our own) it will contain our homework assignments.
+Keep your One Note up to date weekly.
+Have some sort of way for group members to keep in contact with each other, such as texting, or Slack.
+Add TA to One Note (individually) and to GitHub repo (group).
