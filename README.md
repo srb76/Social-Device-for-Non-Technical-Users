@@ -1,27 +1,37 @@
 # Social-Device-for-Non-Technical-Users
-CS461 Senior Capstone Project 2017-2018
-(Will fill out properly after meeting with client)
 
-Synopsis
-Short introduction and/ or overview that explains what the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)
+## Abstract
 
-Code Example
-What the library does as concisely as possible, developers should be able to figure out how your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+This paper is the problem statement for the Social Device for Non-Technical Users project proposed by Arian Kulp and implemented by Austin Kwong, Haolin Han, and Samuel Bonner. 
+The problem is defined as a need for the optimization of an Android social application designed for use by non-technical, elderly users who are inexperienced using mobile applications. This application is largely a one-way application, in that almost all functionality is controlled by an exterior web interface administered by family members. The proposed solution for the optimization of the Android application is to streamline navigation on the app, as well as increase the performance speed of application operations. Several metrics for determining success of the project are also outlined, including a measurable increase in the performance of specific application operations involving page loading, database access, and visual elements.
 
-Motivation
-Short description of the motivation behind the creation and maintenance of the project. This should explain why the project exists.
+## Problem Definition
 
-Installation
-Provide code examples and explanations of how to get the project.
+There are many elderly people living separately from their families who do not feel comfortable using devices that run current social media applications. This discomfort limits regular social contact between the elderly and their families. This project seeks to improve and increase the social contact and quality of life of the elderly by the development of an easy-to-use device and social application.
 
-API Reference
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
+The problem involves the optimization of the user experience, user interface, and performance of a client-developed Android social application that runs solely on a touchscreen device. The non-technical user-base for this device is specifically the elderly who are likely operating the device from within a care facility. This targeted user-base has little or no experience operating mobile devices, navigating the internet, or using social media applications. 
 
-Tests
-Describe and show how to run the tests with code examples.
+The goal of the project should be to minimize confusion and frustration while operating this device application. In order to minimize the difficulty of operating the device, the application will be externally managed by a family member or care facility staff. No online purchasing, system settings, or internet browser functionality will be available to the user operating the device application. The device application allows users to connect to their family by providing the ability to receive (but not send) photos, conduct two way video calls, receive text-based messages, and send recorded voice messages to their family members within a closed social circle of family members, friends, and potentially care facility staff.
 
-Contributors
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
+The client primarily requests that the application approach nearly native app performance in speed and stability. The client desires maximum performance through optimization of transition times, data loading, caching, and data storage. Visuals and graphics in the application are currently loading slowly and contributing to poor performance speed. 
 
-License
-Apache (Temporary)
+Additionally the client requested replacement of the current weather icon set. The current icon set used for the weather feature is the Weather.gov default. The client requests a simpler and more concise weather icon set, to lessen user confusion.
+
+A web interface for administration of the device application is also needed. A family administrator will use this interface to manage the social contacts available to the device user, as well as manage the images, music, and text-based messages present on the device. If there is content stored on the device that needs to be removed, the administrator should be able to do this through the web interface.
+
+## Proposed Solution
+
+In order to further develop this dedicated app, we will be working with primarily Cordova, Angular, Ionic, and ASP.net. We will be working closely with the client to determine bugs and optimization issues that are currently causing problems in the current version of the social application. With these software optimizations, we will improve the device app’s response time, load time, and ease-of-use for its target audience.
+
+Features that need further development or optimization include, simplified touch screen controls and interfaces, disabling the display of android notifications, and backgrounding automatic Android updates. Additionally, the device screen display layout, sending audio recordings, photo gallery management, two-way video calling, text-based messaging, music library management, and local weather display will be optimized.
+
+Throughout our project, we will be frequently updating our GitHub repository as our main form of version control. In the repository, we will be documenting bugs, features, and SPRINT goals weekly as we continue to develop our project. If time allows, we will be implementing a web interface for an administrator to further manage the application. This web application will be accessed by a designated family administrator to control content being passed between the users of the device and their social contacts.
+
+## Performance Metrics
+
+As we continue to develop the application, we will be measuring the improvements in usability of the device/application. We will be isolating the performance of the features by measuring and improving the time and efficiency of the app when it loads data. Specifically, we will measure and evaluate the time it takes to load photo galleries, stream music, and send messages. We will test and evaluate the ease-of-use of the device application after making any changes.
+
+- New non-technical users are able to utilize device functions (photo gallery, voice recording, etc) without instruction and without expressing frustration. 
+- Application screens with visual elements load and perform their functions at an acceptable speed. Transitions between social app features should be limited to below half a second.
+- The application is devoid of Android notifications, and all access to basic Android apps and functions is restricted.
+- Application functions are controlled externally by management interface.
